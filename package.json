@@ -1,0 +1,30 @@
+{
+  "name": "slack-discord-bridge",
+  "version": "1.0.0",
+  "description": "Light weight text channel bridge between Slack & Discord.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickMandylas/slack-discord-bridge.git"
+  },
+  "keywords": [
+    "slack",
+    "discord",
+    "bridge"
+  ],
+  "author": "Nick Mandylas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NickMandylas/slack-discord-bridge/issues"
+  },
+  "homepage": "https://github.com/NickMandylas/slack-discord-bridge#readme",
+  "dependencies": {
+    "@slack/events-api": "^2.3.2",
+    "@slack/web-api": "^5.8.1",
+    "eris": "^0.13.1"
+  }
+}
